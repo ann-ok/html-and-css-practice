@@ -1,0 +1,30 @@
+.socials {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    width: 36px;
+    height: 36px;
+    background: url(socials.svg) no-repeat;
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+
+    &_fb {
+      background-position-x: 0;
+    }
+
+    &_tw {
+      background-position-x: -36.5px;
+    }
+
+    &_vk {
+      background-position-x: -72px;
+    }
+
+    &_ig {
+      background-position-x: -108.5px;
+    }
+  }
+}
