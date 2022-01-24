@@ -11,19 +11,16 @@
     width: 140px;
     height: 40px;
     background: url(downloads.svg) no-repeat;
+    border: 1px solid #CCC;
+    border-radius: 1px;
+    box-sizing: border-box;
 
     &:not(:last-child) {
       margin-right: 10px;
-
-      &:hover {
-        margin: -1px 9px -1px -1px;
-      }
     }
 
     &:hover {
-      margin: -1px;
-      border: 1px solid #CCC;
-      border-radius: 2px;
+      box-shadow: 0 0 0 1px rgba(204, 204, 204, 1);
     }
 
     &_app {

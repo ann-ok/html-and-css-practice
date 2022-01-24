@@ -1,31 +1,17 @@
 .plus {
-  background: #EEEEEE;
-
-  @media @screen-gt-s {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
-  @media @screen-gt-m {
-    padding-top: 45px;
-    padding-bottom: 45px;
-  }
-
-  &__item:not(:last-child) {
-    margin-bottom: 30px;
-
-    @media @screen-gt-s {
-      margin-bottom: 0;
-    }
-  }
-
   &__item {
     display: flex;
     align-items: center;
-    padding-right: 20px;
+    width: 80%;
+    margin-bottom: 30px;
+
+    &_last {
+      margin-bottom: 0;
+    }
 
     @media @screen-gt-s {
-      padding-right: 10px;
+      width: 100%;
+      margin-bottom: 0;
     }
   }
 
